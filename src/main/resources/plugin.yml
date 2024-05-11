@@ -1,0 +1,6 @@
+name: Bedwras1058-HypixelLevelSync
+api-version: '1.13'
+version: 1.0
+author: Nontage
+main: com.nontage.HypixelLevelSync
+softdepend:  [Bedwars1058]
