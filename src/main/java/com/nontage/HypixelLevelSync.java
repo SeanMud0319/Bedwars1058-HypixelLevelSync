@@ -37,7 +37,6 @@ public class HypixelLevelSync extends JavaPlugin implements Listener {
         }
         saveDefaultConfig();
         HypixelLib.key = getConfig().getString("key");
-        System.out.println(HypixelLib.key);
         Bukkit.getPluginManager().registerEvents(this, this);
 
         bw = registration.getProvider();
